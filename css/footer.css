@@ -1,0 +1,191 @@
+footer {
+    background-image: none;
+    /* background-color: #0a5640; */
+    background-color: #004833;
+	color:#fff;
+}
+
+footer .footer-green {
+    background-image: none;
+    /* background-color: #0a5640; */
+    background-color: #004833;
+	color:#fff;
+}
+
+.footer-green a{
+	color: #fff;
+	font-weight: bold;
+}
+.footer-green > a:active,
+.footer-green > a:focus,
+.footer-green > a:hover {
+	color: #fc0;
+}
+
+/* lists of links can look more like regular text */
+.footer-green nav a {
+	font-weight: 500;
+	text-decoration: none;
+	color:#fff;
+}
+.footer-green nav a:active,
+.footer-green nav a:active,
+.footer-green nav a:hover {
+	color: #fc0;
+	text-decoration: underline;
+	text-decoration-color: #fc0;
+}
+
+.footer-green nav ul.footer-links {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.footer-green nav ul.footer-links li {
+	margin-bottom: 1em;
+}
+@media (min-width: 768px) {
+	.footer-green nav ul.footer-links {
+		columns: 2;
+	}
+}
+@media print {
+	.footer-green nav {
+		display: none;
+	}
+}
+
+/* Add a "home page link" rule, so images-disabled links will still be branded */
+footer.footer-dark .home-link,
+footer.footer-green .home-link {
+	color: #fc0;
+	font-weight: bolder;
+}
+
+/* Limit the dimension of the footer logo */
+.footer-address .home-link img {
+	max-width: 8em;
+}
+
+
+
+/* dept footer add */
+.footer-dept {
+	background-color: #222;
+	color: #fff;
+	font-size: 0.9em;
+	line-height: 1.5em;
+}
+.footer-dept a {
+	color: #fff;
+	font-weight:bold;
+}
+.footer-dept > a:active,
+.footer-dept > a:focus,
+.footer-dept > a:hover {
+	color: #fc0;
+}
+@media print {
+	.footer-dept {
+		filter: invert(1);
+	}
+}
+
+.footer-dept + .footer-green {
+	margin-top: 0;
+}
+
+/* Limit the dimension of the footer logo */
+
+footer img {
+	margin-left: 0;
+}
+footer {
+	font-size: 0.9em;
+}
+@media print {
+	footer {
+		background: transparent;
+		border-top: 1px solid #aaa;
+	}
+	footer .container {
+		filter: grayscale(1) invert(1);
+	}
+}
+footer .ndsu-social-media-buttons a:not(.btn) {
+	text-decoration: none;
+	color: #fff;
+}
+footer .ndsu-social-media-buttons a:not(.btn):active,
+footer .ndsu-social-media-buttons a:not(.btn):focus,
+footer .ndsu-social-media-buttons a:not(.btn):hover {
+	text-decoration: none;
+	color: #fc0;
+}
+
+/* Buttons */
+.btn-ndsu {
+  background-color: rgba(255,200,0,1.0);
+  color:#fff;
+  border-color: rgba(255,200,0,1.0);
+    font-size:1.0em;
+}
+.btn-ndsu:hover,
+.btn-ndsu:focus,
+.btn-ndsu:active,
+.btn-ndsu.active {
+  background-color: #eee;
+  border-color: #eee;
+  color: #000;
+}
+.btn-ndsu.disabled:hover,
+.btn-ndsu.disabled:focus,
+.btn-ndsu.disabled:active,
+.btn-ndsu.disabled.active,
+.btn-ndsu[disabled]:hover,
+.btn-ndsu[disabled]:focus,
+.btn-ndsu[disabled]:active,
+.btn-ndsu[disabled].active,
+fieldset[disabled] .btn-ndsu:hover,
+fieldset[disabled] .btn-ndsu:focus,
+fieldset[disabled] .btn-ndsu:active,
+fieldset[disabled] .btn-ndsu.active {
+  background-color: #fff;
+  border-color: #fff;
+  color:#ccc;
+}
+
+.btn-ndsu-footer {
+  /* background-color: rgba(0,50,30,1.0); */
+  background-color: #222;
+  color:#fff;
+  /* border-color: rgba(0,50,30,1.0); */
+    font-size:1.0em;
+	text-align:left;
+}
+.btn-ndsu-footer:hover,
+.btn-ndsu-footer:focus,
+.btn-ndsu-footer:active,
+.btn-ndsu-footer.active {
+  background-color: rgba(255,200,0,1.0);
+  border-color: rgba(255,200,0,1.0);
+  color: #000;
+}
+.btn-ndsu-footer.disabled:hover,
+.btn-ndsu-footer.disabled:focus,
+.btn-ndsu-footer.disabled:active,
+.btn-ndsu-footer.disabled.active,
+.btn-ndsu-footer[disabled]:hover,
+.btn-ndsu-footer[disabled]:focus,
+.btn-ndsu-footer[disabled]:active,
+.btn-ndsu-footer[disabled].active,
+fieldset[disabled] .btn-ndsu-footer:hover,
+fieldset[disabled] .btn-ndsu-footer:focus,
+fieldset[disabled] .btn-ndsu-footer:active,
+fieldset[disabled] .btn-ndsu-footer.active {
+  background-color: #fff;
+  border-color: #fff;
+  color:#ccc;
+}
+
+a.btn-ndsu-footer:hover{color:rgba(0,50,30,1.0);}
