@@ -1,3 +1,4 @@
+<?php if(!isset($hammer->location[1])){?>
 <h1>The Program</h1>
 <h3>The Music Composition Major</h3>
 <p>The BM Composition program is designed for self-starters who are looking to pursue professional careers as composers, arrangers, publishers, or music technologists. Our program is flexible yet thorough, and includes study in Music Theory, Music History, Instrumental or Vocal Performance, and Piano in addition to Composition.</p>
@@ -11,6 +12,9 @@
 	<li>If you're interested in writing music AND lyrics, or if you have your eye on Broadway, minoring in Creative Writing, English, or Theatre Arts might be for you.</li>
 </ul>
 
+<p><a href="/the-program/the-curriculum/" class="btn btn-lg btn-success">The Curriculum</a></p>
+
+
 <p>If you're interested in the composition major at NDSU, let's talk. <br /><br /><a href="https://calendly.com/kylevanderburg/composition-lesson-25-minute" class="btn btn-lg btn-success">Request a Lesson</a></p>
 
 <h3>Opportunities for all music majors:</h3>
@@ -21,3 +25,8 @@ While it's possible to double-major in Music Composition and another field, the 
 <p>The BA requires two years of a foreign language, while the BS requires a minor or a second major. Students can minor in Entrepreneurship through NDSU’s <a href="https://www.ndsu.edu/business/" target="_blank" style="">College of Business</a> (which accepts credit from MUSC 385: Music Entrepreneurship), or pick from <a href="https://www.ndsu.edu/majors/" target="_blank" style="">NDSU's catalog of majors/minors</a>.</p>
 
 <p><strong><em>But what if I'm not interested in majoring in music composition? Can I still take composition lessons?</em></strong><br />We keep the composition program artificially small—around 10% of the population of the Challey School of Music. However, we do allow non-composition music majors to take composition lessons depending on how much room is available in the studio.</p>
+
+<?php }else{
+	include "the-studio-".$hammer->location[1].".php";
+	
+}

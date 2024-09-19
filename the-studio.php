@@ -1,14 +1,4 @@
 <h1>The Studio</h1>
-<nav>
-	<div class="nav nav-tabs" id="nav-tab" role="tablist">
-		<button class="nav-link active" id="nav-studio-tab" data-bs-toggle="tab" data-bs-target="#nav-studio" type="button" role="tab" aria-controls="nav-studio" aria-selected="true">Meet the Studio</button>
-		<!--<button class="nav-link" id="nav-guests-tab" data-bs-toggle="tab" data-bs-target="#nav-guests" type="button" role="tab" aria-controls="nav-guests" aria-selected="false">Guest Composers</button>-->
-		<!--<button class="nav-link" id="nav-calendar-tab" data-bs-toggle="tab" data-bs-target="#nav-calendar" type="button" role="tab" aria-controls="nav-calendar" aria-selected="false">Studio Calendar</button>-->
-		<button class="nav-link" id="nav-handbook-tab" data-bs-toggle="tab" data-bs-target="#nav-handbook" type="button" role="tab" aria-controls="nav-handbook" aria-selected="false">Handbook</button>
-	</div>
-</nav>
-<div class="tab-content" id="nav-tabContent"><br />
-	<div class="tab-pane fade show active" id="nav-studio" role="tabpanel" aria-labelledby="nav-studio-tab" tabindex="0">
 	<header><h2>Meet the Studio</h2></header>
 		<h3>Dr. Kyle Vanderburg</h3>
 		<p>Composer Kyle Vanderburg (b. 1986) grew up in southeast Missouri where the Ozark foothills meet the Mississippi River valley. Raised on southern gospel and American hymnody, his music tries to walk the line between eliciting nostalgia and devising innovative sonic worlds.  His electronic works often play with familiar sounds in new contexts; his acoustic works feature memorable melodies and a very fluid sense of time.</p>
@@ -51,32 +41,3 @@
 		
 		<h3>Emma Winje</h3>
 		<p>Emma Winje is a senior at NDSU studying piano performance under Dr. Tyler Wottrich. Prior to college she studied under Jan Herr, Karen Okerlund, and Dr. Grigor Khachatryan. Winje is the winner of the 2021 Dorothy Sewall Hector Scholarship Competition, the 2019 FM Symphony Young Artist Concerto Competition, the 2018 and 2017 Iva Fillebrown Scholarship Competition, and the 2017 Popplers Music Competition. She has participated in numerous recitals, collaborative music camps (North Star Chamber Music Festival and Northern State University Piano Duet Camp), worship services at her church, and many other wonderful opportunities that have helped to shape her as a musician. She has performed with Minnesota Orchestra Principal Clarinet Gabriel Campos-Zamora, FMSO Concertmaster Sonja Bosca-Harasim, and cellist Meta Weiss at previous NDSU Chamber Music Festivals. She is currently instructing four piano students and regularly performs at local nursing homes with her sister through their business, West Beaton Conservatory. Outside of music, Winje loves to be outdoors, travel, ski, organize, and spend time with her family.</p>					
-		</div>
-	<!--<div class="tab-pane fade" id="nav-guests" role="tabpanel" aria-labelledby="nav-guests-tab" tabindex="0">
-		<header>
-			<h3>Guest Composers</h3>
-		</header>
-
-		<h2>2021-2022</h2>
-		<h3><a href="https://music.mercer.edu/faculty/christopher-schmitz.cfm">Christopher Schmitz</a></h3>Winner, 2021 Pilafian Composition Contest
-		<br />
-		<br />
-		<h3><a href="https://composerjim.com">Jim Stephenson</a></h3>
-		<br />
-	</div>-->
-	<!--<div class="tab-pane fade" id="nav-calendar" role="tabpanel" aria-labelledby="nav-calendar-tab" tabindex="0">
-		<header>
-			<h3>Studio Calendar</h3>
-		</header>
-
-		<iframe src="https://outlook.office365.com/owa/calendar/426a5525c4d540e89f101292ce04362c@ndsu.edu/522c501a700b431699091ce37a5cfff91439465908244299322/calendar.html" width="100%" height="100%" style="height:100%;min-height:1000px;"></iframe>
-	</div>-->
-	<div class="tab-pane fade" id="nav-handbook" role="tabpanel" aria-labelledby="nav-handbook-tab" tabindex="0">
-		<header>
-			<h3>Handbook</h3>
-		</header>
-
-		<a href="Composition Handbook 20220929.pdf" target="_BLANK" class="btn btn-success btn-lg"><i class="fas fa-download"></i> Download the current Composition Handbook</a><br /><br />
-		<iframe id="pdf-iframe" width="100%" height="1200" src="/Composition Handbook 20220929.pdf"></iframe>
-	</div>
-</div>

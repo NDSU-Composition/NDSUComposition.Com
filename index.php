@@ -21,7 +21,7 @@ $hc = new hammer_content($hammer);
 <nav class="navbar navbar-expand-lg navbar-light d-print-none" id="ndsucompnav" role="navigation" style="background-color:#fff;">
 	<div class="container">
 		<a class="navbar-brand" href="/">
-			<img src="/MusicComposition_2.svg" class="d-sm-inline" alt="NoteForge Logo" border="0" style="width:219px;" />
+			<img src="/assets/MusicComposition_2.svg" class="d-sm-inline" alt="NoteForge Logo" border="0" style="width:219px;" />
 		</a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -34,6 +34,7 @@ $hc = new hammer_content($hammer);
 			<li class="nav-item"><a class="nav-link<?php if(!empty($hammer->location[0])){if($hammer->location[0]=="the-studio"){echo " active";}}?>" aria-current="page" href="/the-studio/">The Studio</a></li>
 			<li class="nav-item"><a class="nav-link<?php if(!empty($hammer->location[0])){if($hammer->location[0]=="resources"){echo " active";}}?>" aria-current="page" href="/resources/">Resources</a></li>
 			<li class="nav-item"><a class="nav-link<?php if(!empty($hammer->location[0])){if($hammer->location[0]=="thundering-heard"){echo " active";}}?>" aria-current="page" href="/thundering-heard/">Thundering Heard</a></li>
+			<li class="nav-item"><a class="nav-link" aria-current="page" href="//scorewars.org">SCORE WARS</a></li>
 			</ul>
 		</div><!-- nav-collapse -->
 	</div><!-- contianer --> 
@@ -42,7 +43,7 @@ $hc = new hammer_content($hammer);
 		
 <div class="container-fluid">	
 	<div class="container">
-		<div class="d-none d-print-inline"><img src="/assets/NoteForge-Horizontal.svg" style="width:300px;" class="d-none d-print-inline" alt="NoteForge Logo" /><br /></div>
+		<div class="d-none d-print-inline"><img src="/assets/MusicComposition_2.svg" style="width:300px;" class="d-none d-print-inline" alt="NoteForge Logo" /><br /></div>
 	</div><!--container-->
 	
 	<?php
@@ -123,7 +124,7 @@ $hc = new hammer_content($hammer);
 		<footer class="mt-auto footer container">
 		<div class="row">
 		<div class="col-md-4">
-		<img src="/MusicComposition%20Square.png" style="height:175px;" alt="NDSU Composition Logo" /><br /><br />
+		<img src="/assets/MusicComposition%20Square.png" style="height:175px;" alt="NDSU Composition Logo" /><br /><br />
 		</div>
 		<div class="col-md-4">
 			
