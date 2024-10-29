@@ -11,19 +11,15 @@
 		<hr>
 		
 		<h3>Percy Johnson</h3>
-		<p>Percy is a senior pursuing a Bachelor of Science in Theatre Arts.</p>
+		<p>Percy is a senior pursuing a Bachelor of Science in Theatre Arts and Music.</p>
 		<hr>
 		
-		<h3>Carlin Johnson</h3>
-		<p>Carlin is a senior pursuing a Bachelor of Music in Music Education.</p>
-		<hr>	
-		
 		<h3>Mari Benedict</h3>
-		<p>Mari is a freshman pursuing a Bachelor of Music in Music Education.</p>
+		<p>Mari is a Sophomore pursuing a Bachelor of Music in Music Education.</p>
 		<hr>	
 		
 		<h3>Hannah Bedow</h3>
-		<p>Hannah is a junior pursuing a Bachelor of Music in Music Education.</p>
+		<p>Hannah is a senior pursuing a Bachelor of Music in Music Education.</p>
 		<hr>	
 		
 		<h3>Owen Cary</h3>
@@ -36,8 +32,8 @@
 		<hr>
 									
 		<h3>Nick Palmer</h3>
-		<p>Nick is a junior pursuing a Bachelor of Arts in Art.</p>
+		<p>Nick is a senior pursuing a Bachelor of Arts in Art.</p>
 		<hr>
 		
-		<h3>Emma Winje</h3>
-		<p>Emma Winje is a senior at NDSU studying piano performance under Dr. Tyler Wottrich. Prior to college she studied under Jan Herr, Karen Okerlund, and Dr. Grigor Khachatryan. Winje is the winner of the 2021 Dorothy Sewall Hector Scholarship Competition, the 2019 FM Symphony Young Artist Concerto Competition, the 2018 and 2017 Iva Fillebrown Scholarship Competition, and the 2017 Popplers Music Competition. She has participated in numerous recitals, collaborative music camps (North Star Chamber Music Festival and Northern State University Piano Duet Camp), worship services at her church, and many other wonderful opportunities that have helped to shape her as a musician. She has performed with Minnesota Orchestra Principal Clarinet Gabriel Campos-Zamora, FMSO Concertmaster Sonja Bosca-Harasim, and cellist Meta Weiss at previous NDSU Chamber Music Festivals. She is currently instructing four piano students and regularly performs at local nursing homes with her sister through their business, West Beaton Conservatory. Outside of music, Winje loves to be outdoors, travel, ski, organize, and spend time with her family.</p>					
+		<h3>Sylvie Winje</h3>
+		<p>Sylvie is a senior pursuing a Bachelor of Music in Piano Performance.</p>					

@@ -1,6 +1,8 @@
 <h1>Thundering Heard</h1>
 <img src="/thundering-heard/ThunderingHeard.png" alt="Thundering Heard Logo" width="50%" /><br /><br />
 
+2024 Fall Thundering Heard Student Composers Recital: 2024-10-20 <a href="/thundering-heard/2024-10-20-Thundering-Heard.pdf">Program</a> | Livestream<br />
+2024 Spring Thundering Heard Student Composers CONVOCOMPOCATIONSITION: 2024-04-19 No Program or Livestream Available<br />
 2023 Fall Thundering Heard Student Composers Recital: 2023-11-16 <a href="/thundering-heard/2023-11-16 Thundering Heard.pdf">Program</a> | <a href="https://vimeo.com/884611977">Livestream</a><br />
 2023 Spring Thundering Heard Student Composers Recital: 2023-02-11 <a href="/thundering-heard/2023-02-11-Thundering Heard.pdf">Program</a> | <a href="https://vimeo.com/797885664">Livestream</a><br />
 2023 Thundering Heard Pilafian Composition Competition Recital: 2022-05-02 <a href="/thundering-heard/2022-05-02-Pilafian.pdf">Program</a> | <a href="https://vimeo.com/705219168">Livestream</a><br />

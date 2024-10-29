@@ -8,7 +8,7 @@ $hammer->setHS(1);
 $hammer->clientUrlParse();
 $title = "NDSU Composition";foreach($hammer->location as $loc){$title .= " - " . ucwords(str_replace("-"," ",$loc));}
 
-$includes = "";
+$includes = "<link rel=\"shortcut icon\" href=\"//ndsucomposition.com/assets/favicon.png\"/>";
 $hammer->head($title,$includes,"NDSU Composition");
 
 $hammer->setHS("6500E897-DAAD-473B-90FC-9C1034A04AFD");
@@ -18,27 +18,7 @@ $hc = new hammer_content($hammer);
 
 ?>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light d-print-none" id="ndsucompnav" role="navigation" style="background-color:#fff;">
-	<div class="container">
-		<a class="navbar-brand" href="/">
-			<img src="/assets/MusicComposition_2.svg" class="d-sm-inline" alt="NoteForge Logo" border="0" style="width:219px;" />
-		</a>
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="navbar-content">
-			<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-			<li class="nav-item"><a class="nav-link<?php if(!empty($hammer->location[0])){if($hammer->location[0]=="apply"){echo " active";}}?>" aria-current="page" href="/apply/">Apply</a></li>
-			<li class="nav-item"><a class="nav-link<?php if(!empty($hammer->location[0])){if($hammer->location[0]=="the-program"){echo " active";}}?>" aria-current="page" href="/the-program/">The Program</a></li>
-			<li class="nav-item"><a class="nav-link<?php if(!empty($hammer->location[0])){if($hammer->location[0]=="the-studio"){echo " active";}}?>" aria-current="page" href="/the-studio/">The Studio</a></li>
-			<li class="nav-item"><a class="nav-link<?php if(!empty($hammer->location[0])){if($hammer->location[0]=="resources"){echo " active";}}?>" aria-current="page" href="/resources/">Resources</a></li>
-			<li class="nav-item"><a class="nav-link<?php if(!empty($hammer->location[0])){if($hammer->location[0]=="thundering-heard"){echo " active";}}?>" aria-current="page" href="/thundering-heard/">Thundering Heard</a></li>
-			<li class="nav-item"><a class="nav-link" aria-current="page" href="//scorewars.org">SCORE WARS</a></li>
-			</ul>
-		</div><!-- nav-collapse -->
-	</div><!-- contianer --> 
-</nav><!--navbar-->
+<?php include '/var/www/ndsucomposition.com/htdocs/header.php'; ?>
 
 		
 <div class="container-fluid">	
@@ -118,29 +98,7 @@ $hc = new hammer_content($hammer);
 	<?php } ?>
 		
 	</div><!--container-fluid-->
-<div class="d-print-none mt-auto NDSU-footer" style="background-color:#ddd;">
-	<div class="mt-auto">
-	<br />
-		<footer class="mt-auto footer container">
-		<div class="row">
-		<div class="col-md-4">
-		<img src="/assets/MusicComposition%20Square.png" style="height:175px;" alt="NDSU Composition Logo" /><br /><br />
-		</div>
-		<div class="col-md-4">
-			
-		</div>
-		<div class="col-md-4 text-end">
-			&copy; <?php echo $hammer->getHT('roman'); ?> NDSU Composition<br />
-			PO Box 6050, Dept. 2540<br />
-			Fargo, ND 58108<br />
-			(701) 231-5670<br />
-			<a href="mailto:hi@ndsucomposition.com">hi@ndsucomposition.com</a>
-			<br /><br />
-		</div>
-		</div>
-		</footer>
-	</div><!--Container-->
-</div><!--row-->
+	<?php include '/var/www/ndsucomposition.com/htdocs/footer.php'; ?>
 
 <?php require_once "/var/www/cdn.ntfg.net/htdocs/footer-scripts.php"; ?>
 <!--<script rel="preload" as="script" src="//cdn.ntfg.net/footer-scripts.php?ts=<?php echo $hammer->getHT('timestamp');?>">-->
