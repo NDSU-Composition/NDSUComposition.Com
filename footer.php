@@ -13,7 +13,6 @@
 				&copy; <?php $nf = new NumberFormatter('@numbers=roman', NumberFormatter::DECIMAL);echo $nf->format(date('Y')); ?> NDSU Composition<br />
 				PO Box 6050, Dept. 2540<br />
 				Fargo, ND 58108<br />
-				(701) 231-5670<br />
 				<a href="mailto:hi@ndsucomposition.com">hi@ndsucomposition.com</a>
 				<br /><br />
 			</div>
