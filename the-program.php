@@ -1,4 +1,4 @@
-<?php if(!isset($hammer->location[1])){?>
+<?php if(!isset($lz->location[1])){?>
 <h1>The Program</h1>
 <h3>The Music Composition Major</h3>
 <p>The BM Composition program is designed for self-starters who are looking to pursue professional careers as composers, arrangers, publishers, or music technologists. Our program is flexible yet thorough, and includes study in Music Theory, Music History, Instrumental or Vocal Performance, and Piano in addition to Composition.</p>
@@ -27,6 +27,6 @@ While it's possible to double-major in Music Composition and another field, the 
 <p><strong><em>But what if I'm not interested in majoring in music composition? Can I still take composition lessons?</em></strong><br />We keep the composition program artificially small—around 10% of the population of the Challey School of Music. However, we do allow non-composition music majors to take composition lessons depending on how much room is available in the studio.</p>
 
 <?php }else{
-	include "the-studio-".$hammer->location[1].".php";
+	include "the-studio-".$lz->location[1].".php";
 	
 }

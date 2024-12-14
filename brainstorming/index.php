@@ -1,1 +1,0 @@
-<?php header("Location: https://vanderburg.notion.site/Composition-Resource-Brainstorming-21f2a6de6bde42bcb0e7e913d2e54984"); ?>

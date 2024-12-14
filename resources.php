@@ -1,6 +1,6 @@
 
 <?php 
-if(empty($hammer->location[1])){
+if(empty($lz->location[1])){
 	?>
 	<h1>Resources</h1>
 	<h2><a href="https://github.com/NDSU-Composition/Handbook" target="_BLANK">Studio Handbook</a></h2>
@@ -22,5 +22,5 @@ if(empty($hammer->location[1])){
 	<?php
 }else{
 	echo "<h1><a href=\"/resources/\"><i class=\"fa fa-chevron-left\"></i></a> Resources</h1>";
-	include "resources-".$hammer->location[1].".php";
+	include "resources-".$lz->location[1].".php";
 }

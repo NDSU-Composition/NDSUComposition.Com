@@ -61,6 +61,8 @@ book("Adler, Samuel", "The Study of Orchestration, 3rd Ed.","",1);
 book("Adler, Samuel", "The Study of Orchestration, 4th Ed.","https://www.alibris.com/search/books/isbn/9780393600520",1);
 book("Blatter, Alfred", "Instrumentation and Orchestration","https://www.alibris.com/Instrumentation-orchestration-Alfred-Blatter/book/3256100",1);
 book("Kennan, Kent and Donald Grantham", "The Technique of Orchestration","https://www.alibris.com/The-Technique-of-Orchestration-Kent-Wheeler-Kennan/book/6582482",0);
+book("Kennan, Kent and Donald Grantham", "The Technique of Orchestration, 7th Ed.","https://www.routledge.com/The-Technique-of-Orchestration/Kennan-Grantham/p/book/9780367655594",1,"New York: Routledge, 2023");
+book("Miller, RJ", "Contemporary Orchestration.","https://www.routledge.com/Contemporary-Orchestration-A-Practical-Guide-to-Instruments-Ensembles-and-Musicians/Miller/p/book/9780415741910",1,"New York: Routledge, 2015");
 book("Piston, Walter", "Orchestration","https://www.alibris.com/search/books/isbn/9780575026025",1);
 book("Read, Gardner", "Compendium of Modern Instrumental Techniques","https://www.alibris.com/Compendium-of-Modern-Instrumental-Techniques-Gardner-Read/book/1230089",1);
 book("Read, Gardner", "Style and Orchestration","https://www.alibris.com/Style-and-Orchestration-Gardner-Read/book/6431574",1);
@@ -137,6 +139,8 @@ book("G. Schirmer/AMP", "G. Schirmer Manual of Style","https://classicalondemand
 <?php
 book("Adams, John", "Hallelujah Junction","https://www.alibris.com/Hallelujah-Junction-Composing-an-American-Life-John-Adams/book/10973511",1);
 book("Adams, John Luther", "Silences so Deep","https://www.alibris.com/Silences-So-Deep-Music-Solitude-Alaska-John-Luther-Adams/book/47657972",1);
+book("Adams, John Luther", "The Place Where You Go To Listen: In Search of an Ecology of Music","https://www.alibris.com/The-Place-Where-You-Go-to-Listen-In-Search-of-an-Ecology-of-Music-John-Luther-Adams/book/11446821",1,"Middletown, CT: Wesleyan University Press, 2004");
+book("Adams, John Luther", "Winter Music","https://www.alibris.com/Winter-Music-Composing-the-North-John-Luther-Adams/book/8205337",1,"Middletown, CT: Wesleyan University Press, 2004");
 book("Adolphe, Bruce", "Of Mozart, Parrots, and Cherry Blossoms in the Wind: A composer explores mysteries of the musical mind","",1,"New York: Limelight Editions, 1999");
 book("Adolphe, Bruce", "The Mind's Ear","",1);
 book("Glass, Philip", "Words Without Music","https://www.alibris.com/Words-Without-Music-A-Memoir-Philip-Glass/book/29704669",1);
@@ -166,6 +170,15 @@ book("Bargfrede, Allen", "Music Law in the Digital Age, 2nd Ed.","https://www.al
 book("Gillen, Stephen E.", "Guide to Rights, Clearance, and Permissions in Scholarly, Educational, and Trade Publishing","https://www.ibpa-online.org/store/ViewProduct.aspx?id=11655954",1);
 book("Mower, Allyson", "Developing Authorship and Copyright Ownership Policies","https://www.alibris.com/Developing-Authorship-and-Copyright-Ownership-Policies-Best-Practices-Allyson-Mower/book/53655402?matches=16",1,"Lanham: Rowman and Littlefield, 2024");
 book("Phillips, Pam and Andrew Surmani", "Copyright Handbook for Music Educators and Directors","https://www.alibris.com/Copyright-Handbook-for-Music-Educators-and-Directors-A-Practical-Easy-To-Read-Guide-Pam-Phillips/book/38189651?matches=5",1,"Van Nuys, CA: Alfred, 2017");
+?>
+</tbody>
+
+<thead><th colspan="3"><h3 class="text-center">Concert Design</h3></th></thead>
+<?php libheader(); ?>
+<tbody>
+<?php
+book("Jackson, Seth", "Concert Design: The Road, The Craft, The Industry","https://www.routledge.com/Concert-Design-The-Road-The-Craft-The-Industry/Jackson/p/book/9781138503861",1,"New York: Routledge, 2020");
+book("Sønning, Andreas", "Creative Concert Production and Entrepreneurship","https://www.routledge.com/Creative-Concert-Production-and-Entrepreneurship-Concert-Dramaturgy-and-Project-Development-for-the-Performing-Arts/Sonning/p/book/9781032228556",1,"New York: Routledge, 2024");
 ?>
 </tbody>
 
